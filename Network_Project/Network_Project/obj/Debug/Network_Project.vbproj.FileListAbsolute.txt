@@ -1,2 +1,14 @@
 C:\Users\Brett\AppData\Local\Temporary Projects\Network_Project\bin\Debug\Network_Project.exe.config
 C:\Users\Brett\Documents\Visual Studio 2013\Projects\Network_Project\Network_Project\bin\Debug\Network_Project.exe.config
+C:\Users\Brett\Documents\GitHub\networking\Network_Project\Network_Project\bin\Debug\Network_Project.exe.config
+C:\Users\Brett\Documents\GitHub\networking\Network_Project\Network_Project\bin\Debug\Network_Project.exe
+C:\Users\Brett\Documents\GitHub\networking\Network_Project\Network_Project\bin\Debug\Network_Project.pdb
+C:\Users\Brett\Documents\GitHub\networking\Network_Project\Network_Project\bin\Debug\Network_Project.xml
+C:\Users\Brett\Documents\GitHub\networking\Network_Project\Network_Project\obj\Debug\Interop.ADOX.dll
+C:\Users\Brett\Documents\GitHub\networking\Network_Project\Network_Project\obj\Debug\Network_Project.vbproj.ResolveComReference.cache
+C:\Users\Brett\Documents\GitHub\networking\Network_Project\Network_Project\obj\Debug\Network_Project.Form1.resources
+C:\Users\Brett\Documents\GitHub\networking\Network_Project\Network_Project\obj\Debug\Network_Project.Resources.resources
+C:\Users\Brett\Documents\GitHub\networking\Network_Project\Network_Project\obj\Debug\Network_Project.vbproj.GenerateResource.Cache
+C:\Users\Brett\Documents\GitHub\networking\Network_Project\Network_Project\obj\Debug\Network_Project.exe
+C:\Users\Brett\Documents\GitHub\networking\Network_Project\Network_Project\obj\Debug\Network_Project.xml
+C:\Users\Brett\Documents\GitHub\networking\Network_Project\Network_Project\obj\Debug\Network_Project.pdb
