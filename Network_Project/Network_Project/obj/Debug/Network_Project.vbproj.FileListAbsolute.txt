@@ -1,0 +1,2 @@
+C:\Users\Brett\AppData\Local\Temporary Projects\Network_Project\bin\Debug\Network_Project.exe.config
+C:\Users\Brett\Documents\Visual Studio 2013\Projects\Network_Project\Network_Project\bin\Debug\Network_Project.exe.config
