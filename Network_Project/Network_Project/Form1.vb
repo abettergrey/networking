@@ -6,6 +6,7 @@ Public Class Form1
     Dim strDBName As String = "DB.mdb"
     Dim DBCmd As OleDbCommand = New OleDbCommand
     Dim DBConn As OleDbConnection
+
     Sub send_move(tile_from As Integer, tile_to As Integer, myturn As String)
         Dim strSQLCommand As String = "INSERT INTO checkers (id, turn, tile_number_from, tile_number_to) VALUES (NULL, " & myturn _
                                       & ", " & tile_from & ", " & tile_to & ")"
@@ -17,5 +18,15 @@ Public Class Form1
         DBCmd.Connection = DBConn
         DBCmd.ExecuteNonQuery()
         DBConn.Close()
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles Me.Load
+        For Each c As Button In Controls.OfType(Of Button)()
+            AddHandler c.Click, AddressOf Button_Click
+        Next
+    End Sub
+
+    Private Sub Button_Click(sender As Object, e As EventArgs)
+
     End Sub
 End Class
