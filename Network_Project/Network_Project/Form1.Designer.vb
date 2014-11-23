@@ -86,6 +86,8 @@ Partial Class Form1
         Me.Button_23 = New System.Windows.Forms.Button()
         Me.Button_24 = New System.Windows.Forms.Button()
         Me.Button_17 = New System.Windows.Forms.Button()
+        Me.myColor = New System.Windows.Forms.PictureBox()
+        CType(Me.myColor, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button_1
@@ -289,7 +291,7 @@ Partial Class Form1
         '
         'Button_27
         '
-        Me.Button_27.BackColor = System.Drawing.Color.Silver
+        Me.Button_27.BackColor = System.Drawing.Color.Red
         Me.Button_27.Location = New System.Drawing.Point(119, 170)
         Me.Button_27.Name = "Button_27"
         Me.Button_27.Size = New System.Drawing.Size(36, 36)
@@ -679,11 +681,21 @@ Partial Class Form1
         Me.Button_17.TabIndex = 72
         Me.Button_17.UseVisualStyleBackColor = False
         '
+        'myColor
+        '
+        Me.myColor.BackColor = System.Drawing.Color.Black
+        Me.myColor.Location = New System.Drawing.Point(394, 44)
+        Me.myColor.Name = "myColor"
+        Me.myColor.Size = New System.Drawing.Size(100, 50)
+        Me.myColor.TabIndex = 80
+        Me.myColor.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(515, 423)
+        Me.Controls.Add(Me.myColor)
         Me.Controls.Add(Me.Button_18)
         Me.Controls.Add(Me.Button_19)
         Me.Controls.Add(Me.Button_20)
@@ -750,6 +762,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Button_1)
         Me.Name = "Form1"
         Me.Text = "Form1"
+        CType(Me.myColor, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -817,5 +830,6 @@ Partial Class Form1
     Friend WithEvents Button_23 As System.Windows.Forms.Button
     Friend WithEvents Button_24 As System.Windows.Forms.Button
     Friend WithEvents Button_17 As System.Windows.Forms.Button
+    Friend WithEvents myColor As System.Windows.Forms.PictureBox
 
 End Class
