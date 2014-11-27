@@ -12,3 +12,27 @@ C:\Users\Brett\Documents\GitHub\networking\Network_Project\Network_Project\obj\D
 C:\Users\Brett\Documents\GitHub\networking\Network_Project\Network_Project\obj\Debug\Network_Project.exe
 C:\Users\Brett\Documents\GitHub\networking\Network_Project\Network_Project\obj\Debug\Network_Project.xml
 C:\Users\Brett\Documents\GitHub\networking\Network_Project\Network_Project\obj\Debug\Network_Project.pdb
+C:\Users\Tyler\Documents\Visual Studio 2013\Projects\Network_Project\Network_Project\bin\Debug\Network_Project.exe.config
+C:\Users\Tyler\Documents\Visual Studio 2013\Projects\Network_Project\Network_Project\obj\Debug\Interop.ADOX.dll
+C:\Users\Tyler\Documents\Visual Studio 2013\Projects\Network_Project\Network_Project\obj\Debug\Network_Project.vbproj.ResolveComReference.cache
+C:\Users\Tyler\Documents\Visual Studio 2013\Projects\Network_Project\Network_Project\obj\Debug\Network_Project.exe
+C:\Users\Tyler\Documents\Visual Studio 2013\Projects\Network_Project\Network_Project\obj\Debug\Network_Project.xml
+C:\Users\Tyler\Documents\Visual Studio 2013\Projects\Network_Project\Network_Project\obj\Debug\Network_Project.pdb
+C:\Users\Tyler\Documents\Visual Studio 2013\Projects\Network_Project\Network_Project\bin\Debug\Network_Project.exe
+C:\Users\Tyler\Documents\Visual Studio 2013\Projects\Network_Project\Network_Project\bin\Debug\Network_Project.pdb
+C:\Users\Tyler\Documents\Visual Studio 2013\Projects\Network_Project\Network_Project\bin\Debug\Network_Project.xml
+C:\Users\Tyler\Documents\Visual Studio 2013\Projects\Network_Project\Network_Project\obj\Debug\Network_Project.Form1.resources
+C:\Users\Tyler\Documents\Visual Studio 2013\Projects\Network_Project\Network_Project\obj\Debug\Network_Project.Resources.resources
+C:\Users\Tyler\Documents\Visual Studio 2013\Projects\Network_Project\Network_Project\obj\Debug\Network_Project.vbproj.GenerateResource.Cache
+C:\Users\Brett\Desktop\Network_Project\Network_Project\bin\Debug\Network_Project.exe.config
+C:\Users\Brett\Desktop\Network_Project\Network_Project\obj\Debug\Interop.ADOX.dll
+C:\Users\Brett\Desktop\Network_Project\Network_Project\obj\Debug\Network_Project.vbproj.ResolveComReference.cache
+C:\Users\Brett\Desktop\Network_Project\Network_Project\obj\Debug\Network_Project.exe
+C:\Users\Brett\Desktop\Network_Project\Network_Project\obj\Debug\Network_Project.xml
+C:\Users\Brett\Desktop\Network_Project\Network_Project\obj\Debug\Network_Project.pdb
+C:\Users\Brett\Desktop\Network_Project\Network_Project\bin\Debug\Network_Project.exe
+C:\Users\Brett\Desktop\Network_Project\Network_Project\bin\Debug\Network_Project.pdb
+C:\Users\Brett\Desktop\Network_Project\Network_Project\bin\Debug\Network_Project.xml
+C:\Users\Brett\Desktop\Network_Project\Network_Project\obj\Debug\Network_Project.Form1.resources
+C:\Users\Brett\Desktop\Network_Project\Network_Project\obj\Debug\Network_Project.Resources.resources
+C:\Users\Brett\Desktop\Network_Project\Network_Project\obj\Debug\Network_Project.vbproj.GenerateResource.Cache

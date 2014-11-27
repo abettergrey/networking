@@ -15,8 +15,13 @@ Module Module1
             MakeDataBase(strConn)
         End If
         'ClearDatabase(strConn)
-
+        If Check_for_other_player(strConn) Then
+            myForm.myColor.BackColor = Color.Red
+        Else
+            myForm.myColor.BackColor = Color.Black
+        End If
         myForm.ShowDialog()
+
     End Sub
 
     'Creates the database if it doesn't exist
@@ -30,10 +35,9 @@ Module Module1
 
         DBConn.Open()
 
-        DBCmd.CommandText = "CREATE TABLE checkers(id INT NOT NULL AUTO_INCREMENT, PRIMARY KEY( id ), turn VARCHAR(10), tile_number_from INT, tile_number_to INT)"
+        DBCmd.CommandText = "CREATE TABLE checkers (color VARCHAR(10), tile_number_from INT, tile_number_to INT, tile_jump INT)"
         DBCmd.Connection = DBConn
         DBCmd.ExecuteNonQuery()
-        DBConn.Close()
 
     End Sub
 
@@ -49,4 +53,27 @@ Module Module1
         DBCmd.ExecuteNonQuery()
         DBConn.Close()
     End Sub
+    Function Check_for_other_player(strConn As String)
+        Dim DBConn As OleDbConnection
+        Dim DBCmd As OleDbCommand = New OleDbCommand
+
+        DBConn = New OleDbConnection(strConn)
+        DBConn.Open()
+        DBCmd.Connection = DBConn
+        DBCmd.CommandText = "SELECT * FROM checkers"
+        Dim reader As OleDbDataReader = DBCmd.ExecuteReader()
+        While reader.Read()
+            If reader(0).ToString() = "First" Then
+                reader.Close()
+                Return True
+            End If
+        End While
+        reader.Close()
+        DBCmd.CommandText = "INSERT INTO checkers (color, tile_number_from, tile_number_to, tile_jump) VALUES ('First', 100, 100, 100)"
+        DBCmd.ExecuteNonQuery()
+        DBConn.Close()
+        Return False
+    End Function
+
+
 End Module
