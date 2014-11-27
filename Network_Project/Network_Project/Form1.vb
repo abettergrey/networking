@@ -55,6 +55,18 @@ Public Class Form1
         Next
     End Sub
 
+    Private Sub Form1_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        Dim strSQLCommand As String = "DELETE * FROM checkers"
+
+        strConn = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & strDBName
+        DBConn = New OleDbConnection(strConn)
+        DBConn.Open()
+        DBCmd.CommandText = strSQLCommand
+        DBCmd.Connection = DBConn
+        DBCmd.ExecuteNonQuery()
+        DBConn.Close()
+    End Sub
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles Me.Load
         For Each c As Button In Controls.OfType(Of Button)()
             AddHandler c.Click, AddressOf Button_Click
